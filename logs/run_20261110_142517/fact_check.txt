@@ -1,0 +1,17 @@
+FACT CHECK: PASSED
+  [PASS] overall_nps            expects +18.5
+  [PASS] nps_2026-07            expects +32.0 on a line mentioning 2026-07
+  [PASS] nps_2026-08            expects +30.0 on a line mentioning 2026-08
+  [PASS] nps_2026-09            expects -6.5 on a line mentioning 2026-09
+  [PASS] alert_level            expects 'ALERT LEVEL: RED', found RED
+  [PASS] revenue_at_risk        expects ₹37.98 lakh
+  [PASS] top_fix_points         expects theme login_otp_failure
+  [PASS] top_fix_rupees         expects theme fees_charges
+  [PASS] two_rankings           expects a ranking by NPS points and one by rupees
+  [PASS] mismatch_count         expects 9 on a mismatch line
+  [PASS] alternative_nps        expects alternative NPS +21.5
+  [PASS] data_caveats_section   expects a DATA CAVEATS section
+  [PASS] churn_assumptions      expects churn rates ['3%', '10%', '25%']
+  [PASS] low_sample_mentioned   low-sample segments exist: ['Call Centre']
+  [PASS] nps_not_percent        ok
+  [PASS] no_invented_numbers    ok

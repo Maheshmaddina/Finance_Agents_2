@@ -1,0 +1,5 @@
+openai-agents>=0.4
+pandas>=2.2
+python-dotenv>=1.0
+fastapi>=0.110
+uvicorn>=0.29

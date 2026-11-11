@@ -1,0 +1,13 @@
+[   0.0s] START  provider=gemini model=gemini-3.5-flash-lite survey=/Users/maheshmaddina/Finance_2_Agents/data/nps_survey.csv
+[   8.1s] CALL   score_analyst      input='{"input":"Analyse the NPS survey."}'
+[   8.1s] CALL   voice_of_customer  input='{"input":"Analyse the NPS survey."}'
+[   8.1s] CALL   churn_risk         input='{"input":"Analyse the NPS survey."}'
+[  27.1s] OUTPUT score_analyst      (62 chars)
+[  28.8s] OUTPUT voice_of_customer  (61 chars)
+[  33.0s] OUTPUT churn_risk         (63 chars)
+[  36.2s] CALL   action_planner     input='{"input":"Plan fixes and callbacks using VOC_REPORT and CHURN_REPORT."'...
+[  47.4s] OUTPUT action_planner     (64 chars)
+[  49.6s] CALL   report_writer      input='{"input":"Write the one-page brief from all four reports."}'
+[  57.3s] OUTPUT report_writer      (3748 chars)
+[  61.1s] NOTE   orchestrator output differs from report_writer output; using report_writer's brief
+[  61.3s] DONE   fact check PASSED after 0 rewrite(s)

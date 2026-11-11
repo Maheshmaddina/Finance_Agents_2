@@ -1,0 +1,13 @@
+[   0.0s] START  provider=gemini model=gemini-3.5-flash-lite survey=/Users/maheshmaddina/Finance_2_Agents/data/nps_survey.csv
+[   3.4s] CALL   score_analyst      input='{"input":"Analyse the NPS survey."}'
+[   3.4s] CALL   voice_of_customer  input='{"input":"Analyse the NPS survey."}'
+[   3.4s] CALL   churn_risk         input='{"input":"Analyse the NPS survey."}'
+[  23.8s] OUTPUT score_analyst      (63 chars)
+[  30.1s] OUTPUT voice_of_customer  (61 chars)
+[  32.8s] OUTPUT churn_risk         (63 chars)
+[  37.5s] CALL   action_planner     input='{"input":"Plan fixes and callbacks using VOC_REPORT and CHURN_REPORT."'...
+[  49.6s] OUTPUT action_planner     (64 chars)
+[  50.7s] CALL   report_writer      input='{"input":"Write the one-page brief from all four reports."}'
+[  57.9s] OUTPUT report_writer      (3492 chars)
+[  62.1s] GUARD  fact check failed (no_invented_numbers: numbers not produced by any tool: ['-45.9']); rewrite 1/2
+[  66.7s] DONE   fact check PASSED after 1 rewrite(s)
