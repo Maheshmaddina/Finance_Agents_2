@@ -1,0 +1,6 @@
+.env
+.venv/
+.git/
+__pycache__/
+*.pyc
+stretch/theme_tags_cache.csv
